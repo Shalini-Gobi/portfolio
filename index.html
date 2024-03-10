@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated and proficient individual, consistently pursuing knowledge and embracing every possible opportunity. I have a particular inclination towards acquiring new technical skills, and I am a self-motivated learner. I am keen to engage in collaboration with a well-regarded company to enhance both my personal and professional development.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Voice Assistant</h3>
+            <p>A voice-controlled assistant capable of performing tasks like setting reminders, playing music, providing weather updates, etc.</p>
+        </div>
+        <div class="project">
+            <h3>BMI Calculator</h3>
+            <p>An application that calculates Body Mass Index (BMI) based on user input of height and weight, providing information about their health status.</p>
+        </div>
+        <div class="project">
+            <h3>Password Generator</h3>
+            <p>A tool that generates strong and secure passwords based on user-defined criteria such as length and inclusion of special characters.</p>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>An application that retrieves weather information based on user-provided location or through geolocation, displaying current conditions, forecasts, etc.</p>
+        </div>
+        <div class="project">
+            <h3>Chat Application</h3>
+            <p>A real-time messaging application allowing users to communicate with each other individually or in groups, with features like text, emojis, and file sharing.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Shalini G" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="shalinigobi2003@gmail.com" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
